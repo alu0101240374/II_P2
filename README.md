@@ -20,8 +20,8 @@
 ![gifisTriggerFisicaCubo](./GIFs/isTrigger_fisicas_Cubo.gif)
 
 *g.*  La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.  
-Ejemplo *con* rotación:  
+Ejemplo **con** rotación:  
 ![gifFreeRotation](./GIFs/Free_rotation.gif)
 
-Ejemplo *sin* rotación:  
+Ejemplo **sin** rotación:  
 ![gifNoRotation](./GIFs/No_rotation.gif)
