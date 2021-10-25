@@ -19,7 +19,10 @@
 *f.*  La esfera tiene físicas, el cubo es de tipo isTrigger y tiene físicas.
 ![gifisTriggerFisicaCubo](./GIFs/isTrigger_fisicas_Cubo.gif)
 
-*g.*  La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.  
+*g.*  La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.
+
+![rotationImage](./Images/FreezeAxis.PNG)
+
 Ejemplo **con** rotación:  
 ![gifFreeRotation](./GIFs/Free_rotation.gif)
 
@@ -95,7 +98,8 @@ public class CameraController : MonoBehaviour
 }
 ```
 
-El primero nos sirve para mover el cubo en función de lo que introduzca el jugador con las flechas AWSD. El segundo script sirve para mover la cámara en función del ratón, y que siempre la flecha W sea hacia adelante.
+El primero nos sirve para mover el cubo en función de lo que introduzca el jugador con las flechas AWSD. El segundo script sirve para mover la cámara en función del ratón, y que siempre la flecha W sea hacia adelante. Por último, se añadió un campo público "velocidad" que se puede modificar desde el inspector de objetos.  
+![Speed](./Images/Speed.PNG)
 
 Aquí tenemos un ejemplo del resultado:   
 ![gifEjercicio2](./GIFs/Ejercicio2.gif)
@@ -110,7 +114,8 @@ Resultado:
 
 ![CylinderType0](./GIFs/Ejercicio3_1.gif)
 
-**b)** *Scripts/PushScript.cs*
+**b)** *Scripts/PushScript.cs*  
+En el primer cilindro, empujo con el cubo sin pulsar el espacio, en cambio, cuando empujo el segundo cilindro apretando espacio, vemos que el cilindro es empujado con mucha más fuerza.
 
 Resultado:  
 
