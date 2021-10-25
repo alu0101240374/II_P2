@@ -99,3 +99,38 @@ El primero nos sirve para mover el cubo en función de lo que introduzca el juga
 
 Aquí tenemos un ejemplo del resultado:   
 ![gifEjercicio2](./GIFs/Ejercicio2.gif)
+
+### 3)
+
+Para el tercer ejercicio se cambió de un cubo no físico a uno físico. Para ello, tuve que modificar el script de movimiento para que no se moviera con Translate sino con velocity. Para otros objetos usé AddForce y MovePosition, así conseguí probar todos los método de movimiento de los RigidBody. Puede consultar este nuevo script en: "Scripts/RigidBodyController.cs".
+
+**a)** *Scripts/CylinderType0.cs*
+
+Resultado:  
+
+![CylinderType0](./GIFs/Ejercicio3_1.gif)
+
+**b)** *Scripts/PushScript.cs*
+
+Resultado:  
+
+![PushCylinder](./GIFs/Ejercicio3_2.gif)
+
+**c)** *Scripts/WalkAwayCylinder.cs*
+
+Resultado:  
+
+![WalkAwayCylinder](./GIFs/Ejercicio3_3.gif)
+
+**d)** *Scripts/IJKLCharacterController.cs*  
+Para esta tarea creé una esfera y le añadí físicas añadiendo el componente RigidBody.
+
+Resultado:  
+
+![IJKL](./GIFs/Ejercicio3_4.gif)
+
+**e)** *Scripts/IncreasingCube.cs*
+
+Resultado:  
+
+![IncreasingCube](./GIFs/Ejercicio3_5.gif)
