@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IJKLCharacterController : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 100f;
     private Rigidbody rigid;
     void Start()
     {
