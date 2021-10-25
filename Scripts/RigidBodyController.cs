@@ -14,7 +14,7 @@ public class RigidBodyController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
       PlayerMovement();
     }

@@ -31,9 +31,9 @@ Ejemplo **sin** rotación:
 
 ### 2)
 
-Para este ejercicio he creado dos scripts:  
+Para este ejercicio creé dos scripts:  
 
-**CharacterController**
+**CharacterController.cs**
 
 ```C#
 using System.Collections;
@@ -61,7 +61,7 @@ public class CharacterController : MonoBehaviour
 }
 ```
 
-**CameraController**
+**CameraController.cs**
 
 ```C#
 using System.Collections;
